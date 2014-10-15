@@ -53,7 +53,8 @@ MyRailsProject::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  resources :application
 
-  root to: "application"
+  #resources :application
+
+  #root to: "application"
 end
