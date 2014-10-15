@@ -54,4 +54,6 @@ MyRailsProject::Application.routes.draw do
   #     resources :products
   #   end
   resources :application
+
+  root to: "application"
 end
